@@ -2,8 +2,8 @@
   "name": "HunterRoam",
   "version": "1.0.0",
   "dependencies": [],
-  "documentation": "https://example.com/docs/hunter_roam",
+  "documentation": "https://github.com/javiervidao/Hunter_Roam",
   "esphome_version": ">=2023.0.0",
-  "author": "Your Name",
+  "author": "Javier Vidao",
   "platforms": ["ESP32", "ESP8266"]
 }
