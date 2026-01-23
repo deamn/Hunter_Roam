@@ -34,7 +34,7 @@ web_server:
 
 number:
   - platform: template
-    name: "Zona"
+    name: "Zone"
     id: hunter_zone
     optimistic: true
     min_value: 1
@@ -43,16 +43,16 @@ number:
     step: 1
 
   - platform: template
-    name: "Programa"
+    name: "Program"
     id: hunter_program
     optimistic: true
     min_value: 1
-    max_value: 8
+    max_value: 4
     initial_value: 1
     step: 1
 
   - platform: template
-    name: "Tiempo"
+    name: "Time"
     id: hunter_time
     optimistic: true
     min_value: 1
