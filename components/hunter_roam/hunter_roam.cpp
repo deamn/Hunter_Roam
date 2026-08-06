@@ -1,5 +1,4 @@
 #include "hunter_roam.h"
-#error "CUSTOM FORK LOADED"
 
 namespace esphome {
 namespace hunter_roam {
