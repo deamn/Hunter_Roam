@@ -44,6 +44,8 @@ void HunterRoam::writeBus(std::vector<byte> buffer, bool extrabit) {
 	digitalWrite(_pin, LOW);
 	delay(65); // milliseconds
 
+	noInterrupts();
+
 	// Start impulse
 	digitalWrite(_pin, HIGH);
 	delayMicroseconds(START_INTERVAL);
@@ -66,6 +68,8 @@ void HunterRoam::writeBus(std::vector<byte> buffer, bool extrabit) {
 
 	// Write the stop pulse
 	sendLow();
+
+	interrupts();
 }
 
 /**	
